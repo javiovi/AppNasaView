@@ -6,9 +6,6 @@ import Header from '../../components/Header/header';
 import fetchApi from '../../../utils/fetch';
 import TodaysImage from '../../components/TodaysImages/TodaysImage';
 
-
-
-
 const Home = () => {
     const [todaysImage, setTodaysImage] = useState({});
 
